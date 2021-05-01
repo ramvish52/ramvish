@@ -6,5 +6,4 @@ WORKDIR /var/www/html
 RUN unzip scorilo.zip
 RUN cp -rvf HTML\ -\ Scorilo\ 1.0.1/* .
 RUN rm -rf HTML\ -\ Scorilo\ 1.0.1
-//CMD ["/usr/sbin/httpd", "-D", "FORGROUND"]
 EXPOSE 80
